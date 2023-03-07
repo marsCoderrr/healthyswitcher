@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    left: 0;
+    right: 0;
+    padding: -10px;
+    background-color: #1A1919;
+}
+
+.background img {
+    width: 1500px;
+    animation: anime 5s linear infinite;
+}
+
+@keyframes anime {
+    33% {
+        transform: translateX(10px) translateY(10px);
+    }
+
+    66% {
+        transform: translateX(-10px) translateY(-10px);
+    }
+}
+
+
+.img1 {
+    position: absolute;
+    top: 42px;
+    left: 120px;
+    cursor: pointer;
+}
+
+.img2 {
+    position: absolute;
+    top: 44px;
+    left: 150px;
+    cursor: pointer;
+
+}
+
+.header {
+    width: 100%;
+    height: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item1 {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+}
+
+.item2 {
+    position: absolute;
+    top: 40px;
+    left: 1090px;
+}
+
+.item3 {
+    position: absolute;
+    top: 40px;
+    left: 1200px;
+}
+
+.item4 {
+    position: absolute;
+    top: 40px;
+    left: 1290px;
+}
+
+.img3 {
+    top: 90px;
+    position: absolute;
+}
+
+.item5 {
+    position: absolute;
+    width: 1100px;
+    height: 163px;
+    left: calc(50% - 1100px/2);
+    top: 171px;
+    font-family: 'Helvetica Neue';
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.item6 {
+    position: absolute;
+    width: 595px;
+    height: 52px;
+    left: calc(50% - 595px/2 + 0.5px);
+    top: 400px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.item7 button {
+    height: 60px;
+    width: 200px;
+    background-color: #34C759;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.item7 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item7 {
+    position: absolute;
+    top: 500px;
+    right: 600px;
+}
+
+.item8 {
+    position: absolute;
+    top: 800px;
+    left: 300px;
+    color: #919191;
+}
+
+.item9 {
+    position: absolute;
+    top: 800px;
+    left: 720px;
+    color: #919191;
+}
+
+.item10 {
+    position: absolute;
+    top: 800px;
+    left: 1140px;
+    color: #919191;
+}
+
+.item11 {
+    position: absolute;
+    top: 820px;
+    color: #dadada;
+    left: 160px;
+    font-weight: lighter;
+}
+
+.item12 {
+    position: absolute;
+    top: 820px;
+    color: #dadada;
+    left: 600px;
+    font-weight: lighter;
+}
+
+.item13 {
+    position: absolute;
+    top: 820px;
+    color: #dadada;
+    left: 1050px;
+    font-weight: lighter;
+}
+
+.item14 {
+    position: absolute;
+    top: 870px;
+    color: #dadada;
+    left: 250px;
+    font-weight: lighter;
+}
+
+.item15 {
+    position: absolute;
+    top: 870px;
+    color: #dadada;
+    left: 670px;
+    font-weight: lighter;
+}
+
+.item16 {
+    position: absolute;
+    top: 870px;
+    color: #dadada;
+    left: 1111px;
+    font-weight: lighter;
+}
+
+.box {
+    width: 1100px;
+    height: 700px;
+    background-color: #252525;
+    position: absolute;
+    right: 170px;
+    border-radius: 6px;
+}
+
+.item17 {
+    color: #303030;
+    position: absolute;
+    right: 350px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+
+.item18 {
+    color: #d9d9d9;
+    position: absolute;
+    right: 340px;
+    top: 100px;
+    font-size: 30px;
+}
+
+.item19 {
+    color: #a6a6a6;
+    text-align: center;
+    top: 220px;
+    position: absolute;
+}
+
+.item20 {
+    position: absolute;
+    top: 350px;
+    left: 190px;
+}
+
+.item21 {
+    position: absolute;
+    top: 350px;
+    right: 190px;
+}
+
+.item22 a,
+.item23 a {
+    color: #d4d4d4;
+}
+
+.item22 button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #d4d4d4;
+}
+
+.item23 button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #d4d4d4;
+}
+
+.item22 {
+    position: absolute;
+    top: 470px;
+    left: 50px;
+}
+
+.item23 {
+    position: absolute;
+    top: 470px;
+    right: 50px;
+}
+
+.item24 {
+    color: #303030;
+    position: absolute;
+    top: 800px;
+    font-size: 60px;
+    right: 400px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.item25 {
+    color: #d9d9d9;
+    position: absolute;
+    right: 360px;
+    top: 895px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
+.item26 {
+    position: absolute;
+    top: 970px;
+    right: 500px;
+}
+
+.item1:hover {
+    color: #34C759;
+}
+
+.item2:hover {
+    color: #34C759;
+}
+
+.item3:hover {
+    color: #34C759;
+}
+
+.item4:hover {
+    color: #34C759;
+}
+
+.item27 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.item28 {
+    top: 70px;
+    position: absolute;
+}
+
+.box2 {
+    width: 250px;
+    height: 200px;
+    background-color: #252525;
+    top: 1050px;
+    left: -80px;
+    border-radius: 6px;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+}
+
+.box2 h2 {
+    width: 500px;
+}
+
+.box2:hover {
+    background-color: #34C759;
+    color: #000;
+}
+
+.box3 {
+    width: 250px;
+    height: 200px;
+    background-color: #252525;
+    top: 810px;
+    left: 250px;
+    border-radius: 6px;
+    position: relative;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.box3 h2 {
+    width: 500px;
+}
+
+.box3:hover {
+    background-color: #34C759;
+    color: #000;
+}
+
+.box4 {
+    width: 250px;
+    height: 200px;
+    background-color: #252525;
+    top: 570px;
+    left: 570px;
+    border-radius: 6px;
+    position: relative;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.box4 h2 {
+    width: 500px;
+}
+
+.box4:hover {
+    background-color: #34C759;
+    color: #000;
+}
+
+.box5 {
+    width: 250px;
+    height: 200px;
+    background-color: #252525;
+    top: 330px;
+    left: 890px;
+    border-radius: 6px;
+    position: relative;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.box5 h2 {
+    width: 500px;
+}
+
+.box5:hover {
+    background-color: #34C759;
+    color: #000;
+}
+
+.item35 {
+    color: #303030;
+    position: absolute;
+    top: 2500px;
+    font-size: 60px;
+    right: 540px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.item36 {
+    color: #d9d9d9;
+    position: absolute;
+    right: 500px;
+    top: 2595px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
+.productcard i {
+    color: #F9AD3D;
+}
+
+.productcard {
+    top: 2800px;
+    position: absolute;
+    background-color: #252525;
+    left: 100px;
+    height: 520px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.productcard p {
+    width: 250px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.productcard h2 {
+    padding: 10px;
+}
+
+.button4 {
+    width: 100px;
+    height: 40px;
+    background-color: #34C759;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 220px;
+    top: 455px;
+}
+
+.button4 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.productcard2 i {
+    color: #d4d4d4;
+}
+
+.productcard2 {
+    top: 2800px;
+    position: absolute;
+    background-color: #252525;
+    left: 550px;
+    height: 520px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.productcard2 p {
+    width: 250px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.productcard2 h2 {
+    padding: 10px;
+}
+
+.button5 {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 220px;
+    top: 455px;
+}
+
+.button5 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.productcard2 i {
+    color: #d4d4d4;
+}
+
+.productcard3 {
+    top: 2800px;
+    position: absolute;
+    background-color: #252525;
+    right: 100px;
+    height: 520px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.productcard3 p {
+    width: 250px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.productcard3 i {
+    color: #d4d4d4;
+}
+
+.productcard3 h2 {
+    padding: 10px;
+}
+
+.button6 {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid #d9d9d9;
+    cursor: pointer;
+    position: absolute;
+    left: 220px;
+    top: 455px;
+}
+
+.button6 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.productcard4 {
+    top: 3400px;
+    position: absolute;
+    background-color: #252525;
+    left: 100px;
+    height: 520px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.productcard4 p {
+    width: 250px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.productcard4 h2 {
+    padding: 10px;
+}
+
+.button7 {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid #d9d9d9;
+    cursor: pointer;
+    position: absolute;
+    left: 220px;
+    top: 455px;
+}
+
+.button7 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.productcard4 i {
+    color: #d4d4d4;
+}
+
+.productcard5 i {
+    color: #d4d4d4;
+}
+
+.productcard5 {
+    top: 3400px;
+    position: absolute;
+    background-color: #252525;
+    left: 550px;
+    height: 520px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.productcard5 p {
+    width: 250px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.productcard5 h2 {
+    padding: 10px;
+}
+
+.button8 {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid #d4d4d4;
+    cursor: pointer;
+    position: absolute;
+    left: 220px;
+    top: 455px;
+}
+
+.button8 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.productcard5 i {
+    color: #d4d4d4;
+}
+
+
+.productcard6 {
+    top: 3400px;
+    position: absolute;
+    background-color: #252525;
+    right: 100px;
+    height: 520px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.productcard6 p {
+    width: 250px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.productcard6 h2 {
+    padding: 10px;
+}
+
+.button9 {
+    width: 100px;
+    height: 40px;
+    background-color: #34C759;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 220px;
+    top: 455px;
+}
+
+.button9 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.productcard6 i {
+    color: #F9AD3D;
+}
+
+.container {
+    height: 2900px;
+}
